@@ -1,0 +1,54 @@
+footer {
+    position: relative;
+    bottom: 0;
+
+    .footer-top {
+        border-bottom: 1px solid #feda6a;
+        padding: 1rem;
+        background-color: #1d1e22;
+
+        .row {
+            margin: auto;
+
+            .footer-details {
+                text-align: center;
+                color: white;
+
+
+
+                .hr-style {
+                    width: 100%;
+                    border: 0;
+                    height: 1px;
+                    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #feda6a, rgba(46, 16, 16, 0));
+                }
+
+                .social-media a {
+                    color: #feda6a;
+                    font-size: 2rem;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+
+
+    .footer-bottom {
+        color: white;
+        padding: 0.5rem;
+        background-color: #1d1e22;
+    }
+
+    p {
+        margin-bottom: 0;
+
+        a {
+            color: #feda6a;
+        }
+
+        a:hover {
+            color: #393f4d;
+            text-decoration: none;
+        }
+    }
+}
