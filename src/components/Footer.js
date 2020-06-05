@@ -10,16 +10,16 @@ export const Footer = () => {
             <hr className="hr-style mb-2 mt-0 mx-auto"></hr>
             <ul className="list-unstyled">
               <li>
-                <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+                <i className="fas fa-home mr-3"></i> New York, NY 10012, US
               </li>
               <li>
-                <i class="fas fa-envelope mr-3"></i> info@example.com
+                <i className="fas fa-envelope mr-3"></i> info@example.com
               </li>
               <li>
-                <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+                <i className="fas fa-phone mr-3"></i> + 01 234 567 88
               </li>
               <li>
-                <i class="fas fa-print mr-3"></i> + 01 234 567 89
+                <i className="fas fa-print mr-3"></i> + 01 234 567 89
               </li>
             </ul>
           </div>

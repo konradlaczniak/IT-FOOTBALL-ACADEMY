@@ -36,13 +36,13 @@ export const Navigation = () => {
             </NavLink>
           </li>
           <li className="nav-item active">
-            <NavLink to="/uslugi" active className="activeLink">
-              Usługi
+            <NavLink to="/sponsors" active className="activeLink">
+              Sponsors
             </NavLink>
           </li>
           <li className="nav-item active">
-            <NavLink to="/kontakt" active className="activeLink">
-              Kontakt
+            <NavLink to="/academy" active className="activeLink">
+              Academy
             </NavLink>
           </li>
         </ul>

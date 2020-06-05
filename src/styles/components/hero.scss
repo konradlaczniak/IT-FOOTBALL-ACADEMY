@@ -7,6 +7,23 @@
 
 }
 
+.defaultSponsors {
+    min-height: 100vh;
+    background: url("../../images/SponsorsPage/Sponsors.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.defaultAcademy {
+    min-height: 100vh;
+    background: url("../../images/AcademyPage/academyPage.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .banner {
     max-width: 40vw;
     min-width: 25vw;
@@ -53,4 +70,19 @@
     text-decoration: none;
     background: transparent;
     color: #feda6a;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        max-width: 60vw;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+            margin-bottom: 2rem;
+        }
+    }
 }

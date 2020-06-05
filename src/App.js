@@ -6,9 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
-import { Services } from "./components/Services";
-import { Contact } from "./components/Contact";
-import { PageNotFound } from "./components/PageNotFound";
+import { Sponsors } from "./pages/Sponsors";
+import { Academy } from "./pages/Academy";
+import { PageNotFound } from "./pages/PageNotFound";
 
 class App extends Component {
   constructor() {
@@ -25,8 +25,8 @@ class App extends Component {
           <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/uslugi" component={Services} />
-            <Route path="/kontakt" component={Contact} />
+            <Route path="/sponsors" component={Sponsors} />
+            <Route path="/academy" component={Academy} />
             <Route component={PageNotFound} />
           </Switch>
           <Footer />
