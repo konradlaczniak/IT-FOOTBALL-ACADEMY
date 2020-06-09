@@ -24,6 +24,14 @@
     justify-content: center;
 }
 
+.defaultGallery {
+    min-height: 100vh;
+    background: url("../../images/GalleryPage/GalleryHero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .banner {
     max-width: 40vw;
     min-width: 25vw;

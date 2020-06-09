@@ -9,6 +9,9 @@ import { Home } from "./pages/Home";
 import { Sponsors } from "./pages/Sponsors";
 import { Academy } from "./pages/Academy";
 import { PageNotFound } from "./pages/PageNotFound";
+import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
+import Weather from "./pages/Weather";
 
 class App extends Component {
   constructor() {
@@ -25,8 +28,11 @@ class App extends Component {
           <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/sponsors" component={Sponsors} />
             <Route path="/academy" component={Academy} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/weather" component={Weather} />
+            <Route path="/sponsors" component={Sponsors} />
             <Route component={PageNotFound} />
           </Switch>
           <Footer />
