@@ -35,7 +35,6 @@
                 padding-bottom: 48px;
             }
 
-
             .wrap-input {
                 width: 100%;
                 position: relative;
@@ -66,16 +65,14 @@
     }
 
     .contact-side {
-
         width: calc(100% - 560px);
-        background: url("../images/ContactPage/ContactHero.jpg");
+        background: url("https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: relative;
         z-index: 1;
         padding: 30px 15px 0px 15px;
-
     }
 }
 
@@ -121,7 +118,6 @@ input {
     outline: none;
     border: none !important;
     box-shadow: none !important;
-
 }
 
 textarea {
@@ -131,9 +127,6 @@ textarea {
     color: white !important;
     // margin: 2px !important;
 }
-
-
-
 
 label {
     display: block;
@@ -184,15 +177,46 @@ button {
     color: black;
 }
 
-//Responsive 
+// validation
 
+.validate-input {
+    position: relative;
+}
+
+.alert-validate::after {
+    content: "!";
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 2rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 8px;
+}
+
+.alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+//Responsive
 
 @media (max-width: 992px) {
     .contact-form {
         width: 50% !important;
         padding: 110px 30px 55px 30px !important;
     }
-
 
     .contact-side {
         width: 50% !important;

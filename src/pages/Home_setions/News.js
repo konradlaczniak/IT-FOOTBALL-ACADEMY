@@ -17,45 +17,55 @@ class News extends Component {
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
       },
       {
-        icon: cardImage,
+        icon:
+          "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         title: "News 2",
-        info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        info:
+          "Odit cupiditate id iusto exercitationem rerum magni quae provident ex.",
         paragraph1:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
         paragraph2:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
       },
       {
-        icon: cardImage,
+        icon:
+          "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         title: "News 3",
-        info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        info:
+          "Tempore mollitia, molestias aperiam asperiores quibusdam culpa error doloribus iure sint vel expedita minima.",
         paragraph1:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
         paragraph2:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
       },
       {
-        icon: cardImage,
+        icon:
+          "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         title: "News 4",
-        info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        info:
+          "Eveniet accusantium assumenda maiores laudantium omnis unde libero nobis tempora ipsa incidunt iure, non porro!",
         paragraph1:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
         paragraph2:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
       },
       {
-        icon: cardImage,
+        icon:
+          "https://images.unsplash.com/flagged/photo-1571771710019-ca58cf80f225?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         title: "News 5",
-        info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        info:
+          "voluptas nesciunt facilis quia error temporibus eveniet nisi similique totam obcaecati et fuga?",
         paragraph1:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
         paragraph2:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
       },
       {
-        icon: cardImage,
+        icon:
+          "https://images.unsplash.com/photo-1468259275383-c4f1b88d5772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         title: "News 6",
-        info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        info:
+          "Neque qui in iure necessitatibus esse. Quaerat eaque nihil eos laborum at voluptatem, veritatis?",
         paragraph1:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga excepturi omnis, iste eos debitis id odit velit aliquid necessitatibus cupiditate quo, sequi explicabo suscipit dignissimos, deserunt et ab dolorum culpa.",
         paragraph2:
@@ -69,9 +79,9 @@ class News extends Component {
       <section className="news">
         <Title title="News" />
         <div className="news-center">
-          {this.state.news.map((item, index) => {
+          {this.state.news.map((item, number) => {
             return (
-              <Card style={{ minWidth: "18rem" }}>
+              <Card key={number.toString()} style={{ minWidth: "18rem" }}>
                 <Card.Img variant="top" src={item.icon} />
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>

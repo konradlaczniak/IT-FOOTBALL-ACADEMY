@@ -1,6 +1,6 @@
 import React from "react";
 
-function coach(props) {
+function Coach(props) {
   return (
     <div className="coach-item">
       <img src={props.coach.img} alt="Coach" className="img-fluid" />
@@ -11,4 +11,4 @@ function coach(props) {
   );
 }
 
-export default coach;
+export default Coach;

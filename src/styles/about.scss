@@ -1,64 +1,59 @@
 .about {
-    padding: 3rem 1rem;
-    background-color: #393f4d;
+  padding: 3rem 1rem;
+  background-color: #393f4d;
 
-    .aboutAcademy {
-
-
-        h1 {
-            text-align: center;
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-            text-transform: capitalize;
-            margin-bottom: 1rem;
-            color: white;
-        }
-
-        div {
-            width: 25%;
-            height: 3px;
-            margin: 0 auto;
-            background: #feda6a;
-        }
-
-        p {
-            color: white;
-            margin: 0 auto;
-            padding: 1rem;
-        }
-
+  .aboutAcademy {
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+      color: white;
     }
 
-    .slideShow {
-
-        height: auto;
-        overflow: hidden;
-
-        .item {
-            background: url("../images/HomePage/about1.jpg");
-            height: 500px;
-            background-size: cover;
-            background-position: center center;
-        }
-
-        .item2 {
-            background: url("../images/HomePage/about2.jpg");
-            height: 500px;
-            background-size: cover;
-            background-position: center center;
-        }
-
-        .item3 {
-            background: url("../images/HomePage/about3.jpg");
-            height: 500px;
-            background-size: cover;
-            background-position: center center;
-        }
-
-        p,
-        h3 {
-            color: black;
-            font-weight: bold;
-        }
+    div {
+      width: 25%;
+      height: 3px;
+      margin: 0 auto;
+      background: #feda6a;
     }
+
+    p {
+      color: white;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+  }
+
+  .slideShow {
+    height: auto;
+    overflow: hidden;
+
+    .item {
+      background: url("../images/HomePage/about1.jpg");
+      height: 500px;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .item2 {
+      background: url("../images/HomePage/about2.jpg");
+      height: 500px;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .item3 {
+      background: url("../images/HomePage/about3.jpg");
+      height: 500px;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    p,
+    h3 {
+      color: white;
+    }
+  }
 }

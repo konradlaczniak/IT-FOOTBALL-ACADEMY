@@ -1,5 +1,5 @@
 import React from "react";
-import Coach from "./coach";
+import Coach from "./Coach";
 import GroupDetails from "./GroupDetails";
 
 function AcademyGroup_item(props) {

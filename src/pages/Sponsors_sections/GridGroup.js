@@ -5,7 +5,7 @@ function GridGroup(props) {
   return (
     <section className="sponsors_section">
       <Title title={props.title} />
-      <div className={props.style}>
+      <div className={props.className}>
         {props.sponsors.map((item, index) => {
           return (
             <article key={index} className="sponsor">

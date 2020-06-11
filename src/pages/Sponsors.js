@@ -2,75 +2,13 @@ import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import GridGroup from "./Sponsors_sections/GridGroup";
-import logo from "../images/SponsorsPage/Logo.png";
-
-const sponsors1 = [
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-];
-
-const sponsors2 = [
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-];
-const sponsors3 = [
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-];
-const sponsors4 = [
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-];
-const sponsors5 = [
-  {
-    icon: logo,
-    title: "Sponsor",
-  },
-];
+import {
+  sponsors1,
+  sponsors2,
+  sponsors3,
+  sponsors4,
+  sponsors5,
+} from "./Sponsors_sections/Sponsors";
 
 export const Sponsors = () => {
   return (
@@ -84,27 +22,27 @@ export const Sponsors = () => {
       <GridGroup
         title="Titular sponsor"
         sponsors={sponsors1}
-        style="sponsors_center-H"
+        className="sponsors_center-H"
       />
       <GridGroup
         title="Sponsors"
         sponsors={sponsors2}
-        style="sponsors_center-M"
+        className="sponsors_center-H"
       />
       <GridGroup
         title="Media patronage"
         sponsors={sponsors3}
-        style="sponsors_center-M"
+        className="sponsors_center-H"
       />
       <GridGroup
         title="Partners"
         sponsors={sponsors4}
-        style="sponsors_center-M"
+        className="sponsors_center-H"
       />
       <GridGroup
         title="Technical patron"
         sponsors={sponsors5}
-        style="sponsors_center-H"
+        className="sponsors_center-H"
       />
     </div>
   );

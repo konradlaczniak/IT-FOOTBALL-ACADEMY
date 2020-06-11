@@ -36,16 +36,16 @@ export const Footer = () => {
             <h4 className="text-uppercase">Follow us</h4>
             <hr className="hr-style mb-2 mt-0 mx-auto"></hr>
             <ul className="list-unstyled social-media">
-              <a href="#">
+              <a href="/#">
                 <i className="fab fa-facebook"> </i>
               </a>
-              <a href="#">
+              <a href="/#">
                 <i className="fab fa-twitter"> </i>
               </a>
-              <a href="#">
+              <a href="/#">
                 <i className="fab fa-instagram"> </i>
               </a>
-              <a href="#">
+              <a href="/#">
                 <i className="fab fa-youtube"> </i>
               </a>
             </ul>
@@ -55,7 +55,7 @@ export const Footer = () => {
       <div className="footer-bottom">
         <p className="text-center">
           &copy; {new Date().getFullYear()} Projekt zrealizowany przez{" "}
-          <a href="#">Konrad Łączniak</a>. Wszelkie prawa zastrzeżone.
+          <a href="/#">Konrad Łączniak</a>. Wszelkie prawa zastrzeżone.
         </p>
       </div>
     </footer>

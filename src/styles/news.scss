@@ -1,69 +1,70 @@
 .news {
-    padding: 3rem 0;
-    background: #393f4d;
-    text-align: center;
+  padding: 3rem 0;
+  background: #393f4d;
+  text-align: center;
 
-    .news-center {
-        width: 90vw;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-        grid-row-gap: 2rem;
-        grid-column-gap: 50px;
+  .news-center {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
 
-        .card-body {
-            background: #feda6a;
+    .card-body {
+      background: #feda6a;
+      display: flex;
+      flex-flow: column nowrap;
+      .card-title {
+        font-weight: bold;
+      }
 
-            .card-title {
-                font-weight: bold;
-            }
-
-            #btn-modal {
-                background-color: #393f4d;
-                border: 2px solid #393f4d;
-                margin-left: 50%;
-                transition: all 0.4s linear;
-                box-shadow: none;
-            }
-
-            #btn-modal:hover {
-                text-decoration: none;
-                background: transparent;
-                background-color: #d4d4dc;
-                border: 2px solid #d4d4dc;
-                color: black;
-            }
-        }
-
-    }
-}
-
-.modal-header {
-    background-color: #1d1e22;
-    color: white;
-}
-
-.modal-body {
-    background-color: #d4d4dc;
-}
-
-.modal-footer {
-    background-color: #d4d4dc;
-
-    #btn-modal {
-        background-color: #feda6a;
-        border: 2px solid #feda6a;
+      #btn-modal {
+        background-color: #393f4d;
+        border: 2px solid #393f4d;
         margin-left: 50%;
         transition: all 0.4s linear;
         box-shadow: none;
-        color: black;
-    }
+        margin: auto auto 0 auto;
+      }
 
-    #btn-modal:hover {
+      #btn-modal:hover {
         text-decoration: none;
         background: transparent;
-        background-color: #1d1e22;
-        border: 2px solid #1d1e22;
-        color: white;
+        background-color: #d4d4dc;
+        border: 2px solid #d4d4dc;
+        color: black;
+      }
     }
+  }
+}
+
+.modal-header {
+  background-color: #1d1e22;
+  color: white;
+}
+
+.modal-body {
+  background-color: #d4d4dc;
+}
+
+.modal-footer {
+  background-color: #d4d4dc;
+
+  #btn-modal {
+    background-color: #feda6a;
+    border: 2px solid #feda6a;
+    margin-left: 50%;
+    transition: all 0.4s linear;
+    box-shadow: none;
+    color: black;
+  }
+
+  #btn-modal:hover {
+    text-decoration: none;
+    background: transparent;
+    background-color: #1d1e22;
+    border: 2px solid #1d1e22;
+    color: white;
+  }
 }

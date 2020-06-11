@@ -1,0 +1,94 @@
+.defaultHero {
+  min-height: 100vh;
+  background: url("../images/HomePage/Home1.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.defaultSponsors {
+  min-height: 100vh;
+  background: url("../images/SponsorsPage/Sponsors.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.defaultAcademy {
+  min-height: 100vh;
+  background: url("../images/AcademyPage/academyPage.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.defaultGallery {
+  min-height: 100vh;
+  background: url("../images/GalleryPage/GalleryHero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  max-width: 40vw;
+  min-width: 25vw;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  div {
+    width: 60%;
+    height: 0.05rem;
+    background: #feda6a;
+    margin: 1.7rem auto;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.btn-banner {
+  display: inline-block;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1d1e22 !important;
+  background-color: #feda6a;
+  padding: 0.5rem 1rem;
+  border: 2px solid #feda6a;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.btn-banner:hover {
+  text-decoration: none;
+  background: transparent;
+  color: #feda6a;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    max-width: 60vw;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
