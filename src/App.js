@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "weather-icons/css/weather-icons.css";
 
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";

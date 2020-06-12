@@ -1,0 +1,116 @@
+.weather-section {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 6rem;
+    background: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80") center/cover no-repeat;
+    padding-bottom: 2rem;
+
+    .weather-tab {
+        form {
+            margin-top: 2.5rem;
+
+            input[name="city"] {
+                background: transparent;
+                color: white;
+                border-bottom: 3px solid #feda6a !important;
+                border-radius: 0;
+                font-size: 1.7rem;
+            }
+
+            input[name="city"]::placeholder {
+                color: white;
+                letter-spacing: 2px;
+                font-size: 1.7rem;
+            }
+        }
+
+        .error-style {
+            text-align: center;
+
+            .alert {
+                background: #feda6a !important;
+                color: #393f4d;
+                font-size: 2rem;
+                border: none;
+            }
+        }
+
+        .row {
+            justify-content: center;
+            align-items: center;
+
+            .form-control {
+                padding-bottom: 0;
+            }
+
+            .get-weather-button {
+                text-align: center;
+            }
+
+            #btn-weather {
+                display: inline-block;
+                letter-spacing: 1px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #1d1e22 !important;
+                background-color: #feda6a;
+                padding: 0.8rem 0.5rem;
+                border: 2px solid #feda6a !important;
+                border-radius: 10px;
+                transition: all 0.4s linear;
+                cursor: pointer;
+            }
+
+            #btn-weather:hover {
+                text-decoration: none;
+                background: transparent;
+                color: #feda6a !important;
+            }
+        }
+
+
+    }
+
+    .weather-view {
+        padding: 1rem;
+        flex-wrap: wrap;
+
+        .temp-style {
+            font-size: 2.5rem;
+            color: #feda6a
+        }
+
+        .cards {
+            margin-top: 2rem;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        .current-weather {
+            padding: 1rem;
+            border-radius: 1rem;
+            border: 2px solid white;
+        }
+
+        .forecast {
+            height: auto;
+            padding-top: 3rem;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-row-gap: 2rem;
+            grid-column-gap: 50px;
+            list-style-type: none;
+
+            li {
+                padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+                border-radius: 1rem;
+                border: 2px solid white;
+            }
+
+        }
+    }
+
+
+}
