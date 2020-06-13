@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherApi from "./Weather_sections/weatherApi";
+import WeatherApi from "./Weather_sections/WeatherApi";
 
 function Weather(props) {
   return (
