@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import GallerySection from "./Gallery_sections/Gallery_section";
 import Title from "../components/Title";
-import { photos, photos1, photos2 } from "./Gallery_sections/photos";
+import { photos, photos1, photos2 } from "./Gallery_sections/Photos";
 
 function Gallery(props) {
   return (
